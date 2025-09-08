@@ -86,11 +86,11 @@ nav a:hover {
 
 .hobby-img {
   width: 100%;
-  height: auto;
-  border-radius: 8px 8px 0 0; /* rounded top corners */
+  height: 200px;           
+  object-fit: cover;      
+  border-radius: 8px 8px 0 0;
   margin-bottom: 10px;
 }
-
 
 .interview {
   max-width: 800px;
