@@ -15,6 +15,7 @@ header {
   color: white;
   padding: 15px;
   text-align: center;
+  border-bottom: 4px solid #E67E22;
 }
 
 nav {
@@ -35,11 +36,12 @@ nav a:hover {
 .hero {
   text-align: center;
   padding: 20px;
+  background: linear-gradient(to bottom, #3498DB20, #ECF0F1);
 }
 
 img {
-  max-width: 100%; /* Ensures the image never exceeds the width of its parent container */
-  height: auto;    /* Maintains the image's original aspect ratio */
+  max-width: 100%; 
+  height: auto;    
 }
 
 .hero img {
@@ -65,10 +67,22 @@ img {
 
 .card:hover {
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  transform: translateY(-3px);
+}
+
+.card:nth-child(1) {
+  border-top: 4px solid #3498DB;
+}
+
+.card:nth-child(2) {
+  border-top: 4px solid #E67E22;
+}
+
+.card:nth-child(3) {
+  border-top: 4px solid purple;
 }
 
 .card h3 {
-  color: #3498DB;
   text-align: center;
 }
 
@@ -79,6 +93,7 @@ img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-left: 5px solid #E67E22;
 }
 
 .about .portrait {
@@ -94,6 +109,7 @@ img {
   height: 250px;
   border-radius: 8px 8px 0 0; 
   margin-bottom: 10px;
+  border-bottom: 3px solid #3498DB;
 }
 
 .interview {
@@ -103,6 +119,7 @@ img {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-right: 5px solid #3498DB;
 }
 
 .interview ul {
@@ -122,4 +139,5 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  border-top: 4px solid #E67E22;
 }
