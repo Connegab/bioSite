@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   color: #2C3E50;
+  min-height: 100vh;  
+  overflow-y: scroll;
 }
 
 h1, h2, h3 {
@@ -13,17 +15,17 @@ h1, h2, h3 {
 header {
   background-color: #2C3E50;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   border-bottom: 4px solid #E67E22;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 18px;
   color: #ECF0F1;
   text-decoration: none;
   font-weight: bold;
@@ -35,7 +37,7 @@ nav a:hover {
 
 .hero {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   background: linear-gradient(to bottom, #3498DB20, #ECF0F1);
 }
 
@@ -45,7 +47,7 @@ img {
 }
 
 .hero img {
-  width: 150px;
+  width: 170px;
   border-radius: 50%;
   border: 3px solid #3498DB;
 }
@@ -53,14 +55,14 @@ img {
 .highlights {
   display: flex;
   justify-content: space-around;
-  margin: 20px 20px; 
+  margin: 30px 20px;
 }
 
 .card {
   background: white;
   border-radius: 10px;
-  padding: 20px;
-  width: 30%;
+  padding: 25px;
+  width: 32%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: 0.3s;
 }
@@ -87,10 +89,10 @@ img {
 }
 
 .about {
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 850px;
+  margin: 50px auto;
   background: white;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   border-left: 5px solid #E67E22;
@@ -99,45 +101,14 @@ img {
 .about .portrait {
   display: block;
   margin: 0 auto 20px;
-  width: 150px;
+  width: 170px;
   border-radius: 50%;
   border: 3px solid #E67E22;
 }
 
 .hobby-img {
   width: 100%;
-  height: 250px;
-  border-radius: 8px 8px 0 0; 
-  margin-bottom: 10px;
-  border-bottom: 3px solid #3498DB;
-}
+  height: 260px;
+  border-radius: 8px 8p
 
-.interview {
-  max-width: 800px;
-  margin: 40px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  border-right: 5px solid #3498DB;
-}
-
-.interview ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.interview li {
-  margin-bottom: 15px;
-}
-
-footer {
-  background-color: #34495E;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 4px solid #E67E22;
 }
